@@ -31,3 +31,10 @@ def get_by_id(student_id=None, subject=None):
     student['student_id'] = student_id
     print(student)
     return student
+
+def delete(student_id=None):
+    student = student_db.get(doc_id=int(student_id))
+    if not student:
+        return 'not found', 404
+    student_db.remove(doc_ids=[int(student_id)])
+    return student_id
