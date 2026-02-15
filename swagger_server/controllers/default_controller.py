@@ -1,4 +1,3 @@
-#from operator import add
 from swagger_server.service.student_service import *
 import connexion
 import six

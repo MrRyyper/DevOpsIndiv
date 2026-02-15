@@ -112,10 +112,10 @@ components:
           items:
             type: number
       example:
-      - student_id: 122
-      - first_name: Maricarmen
-      - last_name: Lopez
-      - grade_records: [7,8.54,9]
+       student_id: 122
+       first_name: Maricarmen
+       last_name: Lopez
+       grade_records: [7,8.54,9]
     GradeRecord:
       required:
       - grade
@@ -128,6 +128,6 @@ components:
           maximum: 10
           type: number
       example:
-      - subject_name: Maths
-      - grade: 7
+       subject_name: Maths
+       grade: 7
 
