@@ -38,7 +38,7 @@ spec:
       - env:
         - name: MONGO_URI
           value: mongodb://mongo:27017
-        image: mrryyper/devopsindiv/student_service #nginx
+        image: nginx #mrryyper/devopsindiv/student_service  
         name: service
         imagePullPolicy: Always
         ports:
